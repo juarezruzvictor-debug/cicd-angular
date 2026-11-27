@@ -11,4 +11,5 @@ import { GreetingComponent } from './components/greeting/greeting';
 })
 export class App {
   protected readonly title = signal('cicd-angular');
+  const ERROR: number = 'falla';
 }
